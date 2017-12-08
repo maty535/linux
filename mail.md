@@ -5,4 +5,4 @@
 
 ### 1. Web Client Setup:
 
-    1. [Mailpipe](https://www.mailpile.is/download/linux.html)
+ 1. [Mailpipe](https://www.mailpile.is/download/linux.html)
