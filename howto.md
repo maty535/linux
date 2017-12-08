@@ -1,17 +1,20 @@
 Usefull commands:
 
+#LINUX
 Show linux version:
 >> lsb_release -a 
 
 Install only security updates:
 
->> sudo apt-get -s dist-upgrade | grep "^Inst" |  grep -i securi | awk -F " " {'print $2'} |      xargs apt-get install
+`>> sudo apt-get -s dist-upgrade | grep "^Inst" |  grep -i securi | awk -F " " {'print $2'} |      xargs apt-get install`
 
 
+
+#GIT
 List all GIT global settings:
 
->> git config --global -l
+`>> git config --global -l`
 
 
 Unset Git proxy:
->> git config --global --unset http.proxy
+`>> git config --global --unset http.proxy`
