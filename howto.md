@@ -3,6 +3,7 @@
 ### LINUX
 
 Show linux version:
+
 `>> lsb_release -a` 
 
 Install only security updates:
