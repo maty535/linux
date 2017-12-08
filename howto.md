@@ -8,7 +8,7 @@ Show linux version:
 
 Install only security updates:
 
-`>> sudo apt-get -s dist-upgrade | grep "^Inst" |  grep -i securi | awk -F " " {'print $2'} |      xargs apt-get install`
+`>> sudo apt-get -s dist-upgrade | grep "^Inst" |  grep -i securi | awk -F " " {'print $2'} |      xargs apt-get -y install`
 
 
 
