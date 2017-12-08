@@ -1,8 +1,9 @@
-Usefull commands:
+# Usefull commands:
 
-#LINUX
+### LINUX
+
 Show linux version:
->> lsb_release -a 
+`>> lsb_release -a` 
 
 Install only security updates:
 
@@ -10,7 +11,7 @@ Install only security updates:
 
 
 
-#GIT
+### GIT
 List all GIT global settings:
 
 `>> git config --global -l`
