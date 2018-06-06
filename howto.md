@@ -10,6 +10,12 @@ Install only security updates:
 
 `>> sudo apt-get -s dist-upgrade | grep "^Inst" |  grep -i securi | awk -F " " {'print $2'} |      xargs apt-get -y install`
 
+Check installed locales support:
+`>>  locale -a |grep bg`
+
+Check installed fonts which supports bulgarian:
+
+`>> fc-list :lang=bg`
 
 
 ### GIT
